@@ -17,6 +17,8 @@
 
 - (IBAction)InputNumber {
     
+   // Number_textField.keyboardType = UIKeyboardTypeNumberPad;
+    
     NSString *Number = Number_textField.text;
     Num=[Number intValue];
     NSLog(@"Num = %d",Num);
@@ -102,6 +104,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     system_array = [[NSArray alloc] initWithObjects:@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"11",@"12",@"13",@"14",@"15",@"16",nil];
+
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
