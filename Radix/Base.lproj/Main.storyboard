@@ -20,7 +20,7 @@
                                 <rect key="frame" x="66" y="35" width="189" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="go"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
                                 <connections>
                                     <action selector="InputNumber" destination="izq-kV-pjf" eventType="editingDidEndOnExit" id="pwX-SO-OrM"/>
                                 </connections>
@@ -61,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hki-vc-Ht5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="262"/>
+            <point key="canvasLocation" x="500" y="337"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
